@@ -24,7 +24,26 @@
 		38A03B902120913900EE17FF /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A03B612120913900EE17FF /* GameScene.m */; };
 		38A03B912120913900EE17FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A03B622120913900EE17FF /* Assets.xcassets */; };
 		38A03B922120913900EE17FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A03B622120913900EE17FF /* Assets.xcassets */; };
+		38A03BA2212092C600EE17FF /* Alpha01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A03BA1212092C600EE17FF /* Alpha01Tests.m */; };
+		38A03BB02120932C00EE17FF /* IOSAlpha01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A03BAF2120932C00EE17FF /* IOSAlpha01Tests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38A03BA4212092C600EE17FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38A03B592120913800EE17FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38A03B7C2120913900EE17FF;
+			remoteInfo = "Alpha01 macOS";
+		};
+		38A03BB22120932C00EE17FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38A03B592120913800EE17FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38A03B662120913900EE17FF;
+			remoteInfo = "Alpha01 iOS";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		38A03B5E2120913900EE17FF /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -49,6 +68,12 @@
 		38A03B862120913900EE17FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38A03B882120913900EE17FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38A03B892120913900EE17FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38A03B9F212092C600EE17FF /* Alpha01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Alpha01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A03BA1212092C600EE17FF /* Alpha01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Alpha01Tests.m; sourceTree = "<group>"; };
+		38A03BA3212092C600EE17FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38A03BAD2120932C00EE17FF /* IOSAlpha01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSAlpha01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A03BAF2120932C00EE17FF /* IOSAlpha01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSAlpha01Tests.m; sourceTree = "<group>"; };
+		38A03BB12120932C00EE17FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +91,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		38A03B9C212092C600EE17FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A03BAA2120932C00EE17FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -75,6 +114,8 @@
 				38A03B5D2120913800EE17FF /* Alpha01 Shared */,
 				38A03B692120913900EE17FF /* Alpha01 iOS */,
 				38A03B7E2120913900EE17FF /* Alpha01 macOS */,
+				38A03BA0212092C600EE17FF /* Alpha01Tests */,
+				38A03BAE2120932C00EE17FF /* IOSAlpha01Tests */,
 				38A03B682120913900EE17FF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +137,8 @@
 			children = (
 				38A03B672120913900EE17FF /* Alpha01.app */,
 				38A03B7D2120913900EE17FF /* Alpha01.app */,
+				38A03B9F212092C600EE17FF /* Alpha01Tests.xctest */,
+				38A03BAD2120932C00EE17FF /* IOSAlpha01Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +170,24 @@
 				38A03B892120913900EE17FF /* main.m */,
 			);
 			path = "Alpha01 macOS";
+			sourceTree = "<group>";
+		};
+		38A03BA0212092C600EE17FF /* Alpha01Tests */ = {
+			isa = PBXGroup;
+			children = (
+				38A03BA1212092C600EE17FF /* Alpha01Tests.m */,
+				38A03BA3212092C600EE17FF /* Info.plist */,
+			);
+			path = Alpha01Tests;
+			sourceTree = "<group>";
+		};
+		38A03BAE2120932C00EE17FF /* IOSAlpha01Tests */ = {
+			isa = PBXGroup;
+			children = (
+				38A03BAF2120932C00EE17FF /* IOSAlpha01Tests.m */,
+				38A03BB12120932C00EE17FF /* Info.plist */,
+			);
+			path = IOSAlpha01Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +227,42 @@
 			productReference = 38A03B7D2120913900EE17FF /* Alpha01.app */;
 			productType = "com.apple.product-type.application";
 		};
+		38A03B9E212092C600EE17FF /* Alpha01Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38A03BA8212092C700EE17FF /* Build configuration list for PBXNativeTarget "Alpha01Tests" */;
+			buildPhases = (
+				38A03B9B212092C600EE17FF /* Sources */,
+				38A03B9C212092C600EE17FF /* Frameworks */,
+				38A03B9D212092C600EE17FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38A03BA5212092C600EE17FF /* PBXTargetDependency */,
+			);
+			name = Alpha01Tests;
+			productName = Alpha01Tests;
+			productReference = 38A03B9F212092C600EE17FF /* Alpha01Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38A03BAC2120932C00EE17FF /* IOSAlpha01Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38A03BB42120932C00EE17FF /* Build configuration list for PBXNativeTarget "IOSAlpha01Tests" */;
+			buildPhases = (
+				38A03BA92120932C00EE17FF /* Sources */,
+				38A03BAA2120932C00EE17FF /* Frameworks */,
+				38A03BAB2120932C00EE17FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38A03BB32120932C00EE17FF /* PBXTargetDependency */,
+			);
+			name = IOSAlpha01Tests;
+			productName = IOSAlpha01Tests;
+			productReference = 38A03BAD2120932C00EE17FF /* IOSAlpha01Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -180,6 +277,14 @@
 					};
 					38A03B7C2120913900EE17FF = {
 						CreatedOnToolsVersion = 9.4.1;
+					};
+					38A03B9E212092C600EE17FF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 38A03B7C2120913900EE17FF;
+					};
+					38A03BAC2120932C00EE17FF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 38A03B662120913900EE17FF;
 					};
 				};
 			};
@@ -198,6 +303,8 @@
 			targets = (
 				38A03B662120913900EE17FF /* Alpha01 iOS */,
 				38A03B7C2120913900EE17FF /* Alpha01 macOS */,
+				38A03B9E212092C600EE17FF /* Alpha01Tests */,
+				38A03BAC2120932C00EE17FF /* IOSAlpha01Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,6 +333,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		38A03B9D212092C600EE17FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A03BAB2120932C00EE17FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -251,7 +372,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		38A03B9B212092C600EE17FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A03BA2212092C600EE17FF /* Alpha01Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A03BA92120932C00EE17FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A03BB02120932C00EE17FF /* IOSAlpha01Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38A03BA5212092C600EE17FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38A03B7C2120913900EE17FF /* Alpha01 macOS */;
+			targetProxy = 38A03BA4212092C600EE17FF /* PBXContainerItemProxy */;
+		};
+		38A03BB32120932C00EE17FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38A03B662120913900EE17FF /* Alpha01 iOS */;
+			targetProxy = 38A03BB22120932C00EE17FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		38A03B702120913900EE17FF /* Main.storyboard */ = {
@@ -465,6 +615,95 @@
 			};
 			name = Release;
 		};
+		38A03BA6212092C700EE17FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = Alpha01Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.jive.Alpha01Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alpha01.app/Contents/MacOS/Alpha01";
+			};
+			name = Debug;
+		};
+		38A03BA7212092C700EE17FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = Alpha01Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.jive.Alpha01Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alpha01.app/Contents/MacOS/Alpha01";
+			};
+			name = Release;
+		};
+		38A03BB52120932C00EE17FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = IOSAlpha01Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.jive.IOSAlpha01Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alpha01.app/Alpha01";
+			};
+			name = Debug;
+		};
+		38A03BB62120932C00EE17FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = IOSAlpha01Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.jive.IOSAlpha01Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alpha01.app/Alpha01";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -491,6 +730,24 @@
 			buildConfigurations = (
 				38A03B992120913900EE17FF /* Debug */,
 				38A03B9A2120913900EE17FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38A03BA8212092C700EE17FF /* Build configuration list for PBXNativeTarget "Alpha01Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A03BA6212092C700EE17FF /* Debug */,
+				38A03BA7212092C700EE17FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38A03BB42120932C00EE17FF /* Build configuration list for PBXNativeTarget "IOSAlpha01Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A03BB52120932C00EE17FF /* Debug */,
+				38A03BB62120932C00EE17FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
