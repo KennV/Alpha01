@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3834468A21209685004A7840 /* KDVBaseScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3834468821209685004A7840 /* KDVBaseScene.sks */; };
+		3834468B21209685004A7840 /* KDVGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834468921209685004A7840 /* KDVGameScene.m */; };
+		3834468F2120979F004A7840 /* KDVActions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3834468E2120979F004A7840 /* KDVActions.sks */; };
+		383446902120979F004A7840 /* KDVActions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3834468E2120979F004A7840 /* KDVActions.sks */; };
 		38A03B6C2120913900EE17FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A03B6B2120913900EE17FF /* AppDelegate.m */; };
 		38A03B6F2120913900EE17FF /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A03B6E2120913900EE17FF /* GameViewController.m */; };
 		38A03B722120913900EE17FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A03B702120913900EE17FF /* Main.storyboard */; };
@@ -46,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3834468721209685004A7840 /* KDVGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDVGameScene.h; sourceTree = "<group>"; };
+		3834468821209685004A7840 /* KDVBaseScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = KDVBaseScene.sks; sourceTree = "<group>"; };
+		3834468921209685004A7840 /* KDVGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDVGameScene.m; sourceTree = "<group>"; };
+		3834468E2120979F004A7840 /* KDVActions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = KDVActions.sks; sourceTree = "<group>"; };
 		38A03B5E2120913900EE17FF /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		38A03B5F2120913900EE17FF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		38A03B602120913900EE17FF /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
@@ -108,6 +116,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3834468621209685004A7840 /* KDVScene */ = {
+			isa = PBXGroup;
+			children = (
+				3834468E2120979F004A7840 /* KDVActions.sks */,
+				3834468821209685004A7840 /* KDVBaseScene.sks */,
+				3834468721209685004A7840 /* KDVGameScene.h */,
+				3834468921209685004A7840 /* KDVGameScene.m */,
+			);
+			path = KDVScene;
+			sourceTree = "<group>";
+		};
 		38A03B582120913800EE17FF = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +142,7 @@
 		38A03B5D2120913800EE17FF /* Alpha01 Shared */ = {
 			isa = PBXGroup;
 			children = (
+				3834468621209685004A7840 /* KDVScene */,
 				38A03B5E2120913900EE17FF /* Actions.sks */,
 				38A03B5F2120913900EE17FF /* GameScene.sks */,
 				38A03B602120913900EE17FF /* GameScene.h */,
@@ -269,6 +289,7 @@
 		38A03B592120913800EE17FF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KDV;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Kenn Villegas";
 				TargetAttributes = {
@@ -316,9 +337,11 @@
 			files = (
 				38A03B8D2120913900EE17FF /* GameScene.sks in Resources */,
 				38A03B722120913900EE17FF /* Main.storyboard in Resources */,
+				3834468F2120979F004A7840 /* KDVActions.sks in Resources */,
 				38A03B8B2120913900EE17FF /* Actions.sks in Resources */,
 				38A03B752120913900EE17FF /* LaunchScreen.storyboard in Resources */,
 				38A03B912120913900EE17FF /* Assets.xcassets in Resources */,
+				3834468A21209685004A7840 /* KDVBaseScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +351,7 @@
 			files = (
 				38A03B872120913900EE17FF /* Main.storyboard in Resources */,
 				38A03B8E2120913900EE17FF /* GameScene.sks in Resources */,
+				383446902120979F004A7840 /* KDVActions.sks in Resources */,
 				38A03B922120913900EE17FF /* Assets.xcassets in Resources */,
 				38A03B8C2120913900EE17FF /* Actions.sks in Resources */,
 			);
@@ -358,6 +382,7 @@
 				38A03B782120913900EE17FF /* main.m in Sources */,
 				38A03B8F2120913900EE17FF /* GameScene.m in Sources */,
 				38A03B6C2120913900EE17FF /* AppDelegate.m in Sources */,
+				3834468B21209685004A7840 /* KDVGameScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
