@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		383446962121610A004A7840 /* KDVPrimeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 383446952121610A004A7840 /* KDVPrimeScene.m */; };
+		383446972121610A004A7840 /* KDVPrimeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 383446952121610A004A7840 /* KDVPrimeScene.m */; };
 		38A03B6C2120913900EE17FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A03B6B2120913900EE17FF /* AppDelegate.m */; };
 		38A03B6F2120913900EE17FF /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A03B6E2120913900EE17FF /* GameViewController.m */; };
 		38A03B722120913900EE17FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A03B702120913900EE17FF /* Main.storyboard */; };
@@ -26,6 +28,7 @@
 		38A03B922120913900EE17FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A03B622120913900EE17FF /* Assets.xcassets */; };
 		38A03BA2212092C600EE17FF /* Alpha01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A03BA1212092C600EE17FF /* Alpha01Tests.m */; };
 		38A03BB02120932C00EE17FF /* IOSAlpha01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A03BAF2120932C00EE17FF /* IOSAlpha01Tests.m */; };
+		38FA32052131ECA5000C8A67 /* KDVPrimeScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 38FA32042131ECA5000C8A67 /* KDVPrimeScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		383446942121610A004A7840 /* KDVPrimeScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDVPrimeScene.h; sourceTree = "<group>"; };
+		383446952121610A004A7840 /* KDVPrimeScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDVPrimeScene.m; sourceTree = "<group>"; };
 		38A03B5E2120913900EE17FF /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		38A03B5F2120913900EE17FF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		38A03B602120913900EE17FF /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
@@ -74,6 +79,7 @@
 		38A03BAD2120932C00EE17FF /* IOSAlpha01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSAlpha01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A03BAF2120932C00EE17FF /* IOSAlpha01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSAlpha01Tests.m; sourceTree = "<group>"; };
 		38A03BB12120932C00EE17FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38FA32042131ECA5000C8A67 /* KDVPrimeScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = KDVPrimeScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,9 @@
 		3834468621209685004A7840 /* KDVScene */ = {
 			isa = PBXGroup;
 			children = (
+				38FA32042131ECA5000C8A67 /* KDVPrimeScene.sks */,
+				383446942121610A004A7840 /* KDVPrimeScene.h */,
+				383446952121610A004A7840 /* KDVPrimeScene.m */,
 			);
 			path = KDVScene;
 			sourceTree = "<group>";
@@ -327,6 +336,7 @@
 				38A03B722120913900EE17FF /* Main.storyboard in Resources */,
 				38A03B8B2120913900EE17FF /* Actions.sks in Resources */,
 				38A03B752120913900EE17FF /* LaunchScreen.storyboard in Resources */,
+				38FA32052131ECA5000C8A67 /* KDVPrimeScene.sks in Resources */,
 				38A03B912120913900EE17FF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38A03B6F2120913900EE17FF /* GameViewController.m in Sources */,
+				383446962121610A004A7840 /* KDVPrimeScene.m in Sources */,
 				38A03B782120913900EE17FF /* main.m in Sources */,
 				38A03B8F2120913900EE17FF /* GameScene.m in Sources */,
 				38A03B6C2120913900EE17FF /* AppDelegate.m in Sources */,
@@ -375,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38A03B842120913900EE17FF /* GameViewController.m in Sources */,
+				383446972121610A004A7840 /* KDVPrimeScene.m in Sources */,
 				38A03B8A2120913900EE17FF /* main.m in Sources */,
 				38A03B902120913900EE17FF /* GameScene.m in Sources */,
 				38A03B812120913900EE17FF /* AppDelegate.m in Sources */,
